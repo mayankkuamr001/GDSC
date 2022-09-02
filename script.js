@@ -22,3 +22,4 @@ function getJokes() {
             jokes.innerHTML = JSON.stringify(data.value);
         });
 }
+
