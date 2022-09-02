@@ -7,11 +7,12 @@ body{
     /* border:2px solid red; */  
     margin: auto;
     width: 90%;
-    margin-top: 10%;
+    margin-top: 6%;
 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .box{
@@ -73,6 +74,21 @@ body{
     
     color: rgb(70, 68, 68);
     display: none;
+}
+
+#change{
+    background-color: rgb(218, 216, 216);
+    width:8rem;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-top: 2rem;
+    padding: 4px 6px;
+    position: absolute;
+    left: 46%;
+}
+
+#change:hover{
+    cursor: pointer;
 }
 
 footer{
